@@ -1,0 +1,23 @@
+{
+  "npmScope": "track-cargo",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*",
+    "tsconfig.base.json": "*"
+  },
+  "projects": {
+    "track-cargo": {
+      "tags": []
+    },
+    "track-cargo-e2e": {
+      "tags": [],
+      "implicitDependencies": ["track-cargo"]
+    }
+  }
+}
